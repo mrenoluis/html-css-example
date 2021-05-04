@@ -4,7 +4,6 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
 * {
 	margin: 0;
 	padding: 0;
@@ -20,9 +19,9 @@ body {
 	word-spacing: .16em;
 	line-height: 1.25;
 	font-family: Verdana, Geneva, sans-serif;
-	/* ADD BACKGROUND IMAGE*/
+	/* add first background image */
 	background: url(../images/mts1.png) center bottom repeat-x;
-	/* ADD OVERWRITE BACKGROUND IMAGE */
+	/* add overwrite background images */
 	background: url(../images/cloudMain.png) center top no-repeat, 
 				url(../images/cloudScatter.png) 25% 60px repeat-x,
 				url(../images/hills.png) center bottom repeat-x,
@@ -38,7 +37,7 @@ p {
 	padding-bottom: .75em;
 }
 
-/* START - ADDED CODE */
+/* set up the container */
  #container {
  	width: 900px;
  	margin: 0 auto;
@@ -80,11 +79,9 @@ p {
  	height: 0;
  }
 
- /* END - ADDED CODE*/
 
-/* demo box-shadow divs */
+/* box-shadow divs */
 #container div:nth-of-type(1){
-	/* ADDED CODE */
 	/*	box-shadow: -10px -10px; */
 	-webkit-box-shadow: 0 0 5px 5px #8acf44;
 	        box-shadow: 0 0 5px 5px #8acf44;  
